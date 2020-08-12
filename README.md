@@ -22,7 +22,10 @@ Pondr is very easy to run. All you need is **Docker (Engine)** installed, and th
 **[How to install docker.](https://docs.docker.com/engine/install/)**
 
 ##### Step 1
-Create a folder named `fyp` (it must be called this). For example:
+Create a folder named `fyp` (it must be called this).
+
+##### Step 2
+Now, clone all the repositories into the `fyp` folder you created. For example:
 
 ```bash
 .
@@ -40,9 +43,6 @@ Create a folder named `fyp` (it must be called this). For example:
     ├── fyp-rating-service-worker
     └── fyp-user-service-v3
 ```
-
-##### Step 2
-Now, clone all the repositories into the `fyp` folder you created.
 
 ##### Step 3
 In the repositories that contain a `.sample.env` file, run the following command in their folder: `cp .sample.env .env`.
