@@ -29,7 +29,7 @@ Now, clone all the repositories into the `fyp` folder you created. For example:
 
 ```bash
 .
-├──fyp
+└── fyp
     ├── fyp-api-gateway
     ├── fyp-article-service
     ├── fyp-bookmark-service
